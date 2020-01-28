@@ -1,0 +1,37 @@
+module.exports = {
+    1:{
+        name:'用户列表',
+        key:1,
+        to:'/home/people',
+        classType:'用户管理',
+        icon:'user'
+    },
+    2:{
+        name:'文档列表',
+        key:2,
+        to:'/home/list',
+        classType:'文档管理',
+        icon:'file'
+    },
+    3:{
+        classType:'文档管理',
+        icon:'file',
+        name:'添加文档',
+        key:3,
+        to:'/home/addlist'
+    },
+    4:{
+        classType:'知识库管理',
+        icon:'team',
+        name:'知识库列表',
+        key:4,
+        to:'/home/known'
+    },
+    5:{
+        classType:'知识库管理',
+        icon:'team',
+        name:'添加知识库',
+        key:5,
+        to:'/home/addknown'
+    }
+}
