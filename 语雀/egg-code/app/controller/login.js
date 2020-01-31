@@ -7,7 +7,6 @@ class UserController extends Controller {
   async login() {
     const { ctx,app } = this;
     let { username, password } = ctx.request.body
-    console.log(password)
     if (username === '') {
       ctx.body = { code: 400, msg: "用户名不能为空" }
       return
